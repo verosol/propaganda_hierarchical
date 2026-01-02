@@ -1,0 +1,1308 @@
+High-Level Categories for Our Schema
+
+
+	Sahitaj et al. High-Level Labels 
+
+1 — Patriotic & Catchy Appeals (5, 15): Techniques like flag-waving or catchy slogans that appeal to patriotism, group identity, or rallying sentiments. 
+2 — Popularity Appeals (16): Techniques such as bandwagon arguments that claim something is good or true because many people support or follow it.
+ 3 — Deflections & Distractions (14, 17, 7, 8): Includes whataboutism, repetition, causal oversimplification, or red herrings—tactics that shift attention away from the main issue. 
+4 — Emotional & Loaded Persuasion (1, 2, 4, 6, 10, 11): Techniques using loaded or emotional language, fear appeals, name-calling, exaggeration/minimization, Nazi comparisons, or appeals to authority instead of evidence. 
+5 — Argument Manipulations (12, 13, 3, 9): Techniques such as straw-man arguments, thought-terminating clichés, unfounded doubt, or black-and-white framing that distort reasoning or debate.
+0— No Propaganda (18): No relevant propaganda techniques detected.
+
+qwen3 sahitaj scheme
+
+high only baseline
+===== TRUE 0: No Propaganda (18) =====
+
+True=0 (No Propaganda (18)), Pred=0 (No Propaganda (18))  | N tokens: 1107
+  httpurl         45
+  ukraine         33
+  russia          23
+  russian         17
+  war             15
+  propaganda      13
+  putin           9
+  say             8
+  nazis           8
+  ukrainian       7
+  nazi            7
+  right           6
+  china           6
+  go              5
+  neo             5
+
+True=0 (No Propaganda (18)), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 93
+  russia          8
+  ukraine         6
+  war             4
+  httpurl         4
+  putin           2
+  ukrainians      2
+  news            2
+  today           2
+  finns           2
+  winter          2
+  condition       1
+  leader          1
+  vladimir        1
+  test            1
+  december        1
+
+True=0 (No Propaganda (18)), Pred=2 (Popularity Appeals)  | N tokens: 23
+  people          2
+  know            2
+  vote            1
+  united          1
+  states          1
+  dangerous       1
+  humanity        1
+  china           1
+  russia          1
+  combined        1
+  maybe           1
+  let             1
+  govt            1
+  propaganda      1
+  fail            1
+
+True=0 (No Propaganda (18)), Pred=3 (Deflections & Distractions)  | N tokens: 339
+  russia          15
+  ukraine         12
+  war             9
+  putin           7
+  httpurl         6
+  propaganda      5
+  threat          4
+  russian         4
+  uk              4
+  biden           3
+  medium          3
+  right           3
+  invade          3
+  middle          3
+  new             3
+
+True=0 (No Propaganda (18)), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 432
+  httpurl         13
+  nazi            12
+  ukraine         11
+  russia          10
+  war             9
+  propaganda      6
+  people          6
+  destroy         5
+  stop            5
+  putin           5
+  world           4
+  hitler          4
+  germany         4
+  russian         4
+  nazis           3
+
+===== TRUE 1: Patriotic & Catchy Appeals =====
+
+True=1 (Patriotic & Catchy Appeals), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 128
+  istandwithputin 10
+  russia          9
+  httpurl         8
+  istandwithrussia 6
+  support         6
+  putin           4
+  people          4
+  standwithputin  3
+  country         2
+  western         2
+  propaganda      2
+  standwithrussia 2
+  war             2
+  chinese         2
+  display         1
+
+True=1 (Patriotic & Catchy Appeals), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 11
+  istandwithrussia 3
+  bro             1
+  fukkkin         1
+  world           1
+  western         1
+  country         1
+  shutthrfucckkk  1
+  istandwithputin 1
+  httpurl         1
+
+===== TRUE 2: Popularity Appeals =====
+
+True=2 (Popularity Appeals), Pred=2 (Popularity Appeals)  | N tokens: 6
+  understand      1
+  friend          1
+  majority        1
+  russians        1
+  support         1
+  war             1
+
+===== TRUE 3: Deflections & Distractions =====
+
+True=3 (Deflections & Distractions), Pred=0 (No Propaganda (18))  | N tokens: 20
+  world           2
+  ukraine         1
+  russia          1
+  produce         1
+  nearly          1
+  trade           1
+  wheat           1
+  calorie         1
+  soar            1
+  food            1
+  price           1
+  shortage        1
+  touch           1
+  wave            1
+  instability     1
+
+True=3 (Deflections & Distractions), Pred=3 (Deflections & Distractions)  | N tokens: 55
+  russia          4
+  ukraine         4
+  httpurl         3
+  attack          2
+  nato            2
+  like            2
+  war             2
+  figure          1
+  continue        1
+  expand          1
+  east            1
+  take            1
+  strategic       1
+  depth           1
+  directly        1
+
+True=3 (Deflections & Distractions), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 93
+  nazi            4
+  russia          3
+  httpurl         3
+  war             3
+  cause           2
+  ukraine         2
+  america         2
+  nato            2
+  hitler          2
+  russians        2
+  genocideofukraine 1
+  azov            1
+  force           1
+  maybe           1
+  think           1
+
+===== TRUE 4: Emotional & Loaded Persuasion =====
+
+True=4 (Emotional & Loaded Persuasion), Pred=0 (No Propaganda (18))  | N tokens: 100
+  russian         4
+  httpurl         4
+  military        3
+  destroy         3
+  ukraine         3
+  war             3
+  russia          3
+  ukrainian       2
+  report          2
+  accord          2
+  people          2
+  like            2
+  propaganda      2
+  fortress        1
+  warehouse       1
+
+True=4 (Emotional & Loaded Persuasion), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 23
+  russia          3
+  message         1
+  save            1
+  world           1
+  nazi            1
+  military        1
+  machine         1
+  foster          1
+  year            1
+  care            1
+  eternal         1
+  debt            1
+  second          1
+  strong          1
+  absolutely      1
+
+True=4 (Emotional & Loaded Persuasion), Pred=3 (Deflections & Distractions)  | N tokens: 48
+  httpurl         3
+  russian         2
+  ukraine         2
+  ukrainian       2
+  country         2
+  aid             2
+  help            2
+  attack          2
+  army            1
+  threaten        1
+  civilian        1
+  damage          1
+  casualty        1
+  cause           1
+  nationalist     1
+
+True=4 (Emotional & Loaded Persuasion), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 473
+  ukraine         20
+  nazi            19
+  httpurl         16
+  nazis           11
+  people          8
+  ukrainian       8
+  neo             7
+  war             7
+  russia          6
+  russian         6
+  right           5
+  terrorist       5
+  civilian        5
+  nato            5
+  support         4
+
+===== TRUE 5: Argument Manipulations =====
+
+True=5 (Argument Manipulations), Pred=0 (No Propaganda (18))  | N tokens: 85
+  russian         3
+  russia          3
+  httpurl         3
+  state           3
+  ve              2
+  say             2
+  expose          2
+  propaganda      2
+  terrorist       2
+  go              1
+  utterly         1
+  impossible      1
+  soldier         1
+  radiation       1
+  think           1
+
+True=5 (Argument Manipulations), Pred=3 (Deflections & Distractions)  | N tokens: 70
+  eu              4
+  propaganda      4
+  lie             3
+  ukraine         3
+  believe         2
+  join            2
+  country         2
+  blame           1
+  think           1
+  tweet           1
+  bubble          1
+  system          1
+  contrary        1
+  friend          1
+  know            1
+
+True=5 (Argument Manipulations), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 40
+  fake            2
+  question        1
+  ukranians       1
+  engage          1
+  self            1
+  defense         1
+  killer          1
+  putin           1
+  shake           1
+  boot            1
+  boris           1
+  go              1
+  unleash         1
+  barrage         1
+  sanction        1
+
+True=5 (Argument Manipulations), Pred=5 (Argument Manipulations)  | N tokens: 20
+  afghanistan     1
+  choice          1
+  maintain        1
+  status          1
+  quo             1
+  year            1
+  allow           1
+  taliban         1
+  recreate        1
+  safe            1
+  haven           1
+  terrorist       1
+  cause           1
+  humanitarian    1
+  geo             1
+  
+  main high baseline
+  
+  ===== TRUE 0: No Propaganda (18) =====
+
+True=0 (No Propaganda (18)), Pred=0 (No Propaganda (18))  | N tokens: 338
+  httpurl         22
+  ukraine         10
+  russia          7
+  war             4
+  rocket          3
+  fire            2
+  human           2
+  rights          2
+  crisis          2
+  un              2
+  important       2
+  plan            2
+  good            2
+  ethiopia        2
+  global          2
+
+True=0 (No Propaganda (18)), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 264
+  russia          15
+  ukraine         12
+  httpurl         11
+  war             9
+  russian         5
+  putin           4
+  nato            4
+  threat          4
+  fight           3
+  threaten        2
+  protect         2
+  nation          2
+  say             2
+  happy           2
+  ukrainian       2
+
+True=0 (No Propaganda (18)), Pred=3 (Deflections & Distractions)  | N tokens: 549
+  russia          17
+  ukraine         16
+  propaganda      11
+  httpurl         10
+  war             8
+  putin           6
+  russian         6
+  people          6
+  right           5
+  nazi            5
+  truth           4
+  biden           4
+  country         4
+  think           4
+  ukrainian       4
+
+True=0 (No Propaganda (18)), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 790
+  httpurl         26
+  ukraine         22
+  russia          17
+  nazi            17
+  war             15
+  putin           13
+  russian         13
+  propaganda      11
+  nazis           10
+  people          9
+  destroy         7
+  ukrainians      6
+  stop            6
+  ukrainian       5
+  right           5
+
+True=0 (No Propaganda (18)), Pred=5 (Argument Manipulations)  | N tokens: 53
+  ukraine         2
+  live            2
+  save            1
+  fly             1
+  zone            1
+  start           1
+  nuclear         1
+  war             1
+  destroy         1
+  world           1
+  make            1
+  sense           1
+  zelenskyy       1
+  right           1
+  mind            1
+
+===== TRUE 1: Patriotic & Catchy Appeals =====
+
+True=1 (Patriotic & Catchy Appeals), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 139
+  istandwithputin 11
+  russia          9
+  httpurl         9
+  istandwithrussia 9
+  support         6
+  putin           4
+  people          4
+  country         3
+  western         3
+  standwithputin  3
+  world           2
+  propaganda      2
+  standwithrussia 2
+  war             2
+  chinese         2
+
+===== TRUE 2: Popularity Appeals =====
+
+True=2 (Popularity Appeals), Pred=2 (Popularity Appeals)  | N tokens: 6
+  understand      1
+  friend          1
+  majority        1
+  russians        1
+  support         1
+  war             1
+
+===== TRUE 3: Deflections & Distractions =====
+
+True=3 (Deflections & Distractions), Pred=3 (Deflections & Distractions)  | N tokens: 55
+  russia          4
+  ukraine         4
+  httpurl         3
+  attack          2
+  nato            2
+  like            2
+  war             2
+  figure          1
+  continue        1
+  expand          1
+  east            1
+  take            1
+  strategic       1
+  depth           1
+  directly        1
+
+True=3 (Deflections & Distractions), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 113
+  russia          4
+  nazi            4
+  httpurl         4
+  ukraine         3
+  war             3
+  cause           2
+  america         2
+  nato            2
+  hitler          2
+  russians        2
+  world           2
+  genocideofukraine 1
+  azov            1
+  force           1
+  maybe           1
+
+===== TRUE 4: Emotional & Loaded Persuasion =====
+
+True=4 (Emotional & Loaded Persuasion), Pred=0 (No Propaganda (18))  | N tokens: 20
+  ukrainian       1
+  force           1
+  reportedly      1
+  destroy         1
+  billion         1
+  worth           1
+  russian         1
+  military        1
+  equipment       1
+  addition        1
+  war             1
+  materiel        1
+  russia          1
+  lose            1
+  soldier         1
+
+True=4 (Emotional & Loaded Persuasion), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 48
+  russia          3
+  military        3
+  success         2
+  httpurl         2
+  destroy         2
+  russian         2
+  message         1
+  save            1
+  world           1
+  nazi            1
+  machine         1
+  foster          1
+  year            1
+  care            1
+  eternal         1
+
+True=4 (Emotional & Loaded Persuasion), Pred=2 (Popularity Appeals)  | N tokens: 24
+  people          2
+  war             2
+  mariupol        1
+  get             1
+  tired           1
+  sunbathe        1
+  beach           1
+  like            1
+  happen          1
+  popular         1
+  support         1
+  continuation    1
+  wear            1
+  civilian        1
+  population      1
+
+True=4 (Emotional & Loaded Persuasion), Pred=3 (Deflections & Distractions)  | N tokens: 40
+  attack          4
+  httpurl         3
+  ukraine         2
+  russian         2
+  plan            1
+  country         1
+  lavrov          1
+  apparently      1
+  diplomat        1
+  lot             1
+  propaganda      1
+  russia          1
+  paint           1
+  ukrainians      1
+  commit          1
+
+True=4 (Emotional & Loaded Persuasion), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 512
+  ukraine         21
+  nazi            20
+  httpurl         17
+  nazis           11
+  ukrainian       10
+  people          8
+  war             8
+  russian         7
+  russia          7
+  neo             7
+  nato            6
+  right           5
+  civilian        5
+  propaganda      5
+  support         4
+
+===== TRUE 5: Argument Manipulations =====
+
+True=5 (Argument Manipulations), Pred=3 (Deflections & Distractions)  | N tokens: 114
+  state           4
+  ukraine         3
+  propaganda      3
+  eu              3
+  lie             2
+  join            2
+  country         2
+  httpurl         2
+  claim           2
+  fake            2
+  medium          2
+  label           2
+  russia          2
+  terrorist       2
+  friend          1
+
+True=5 (Argument Manipulations), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 34
+  question        1
+  ukranians       1
+  engage          1
+  self            1
+  defense         1
+  killer          1
+  hunter          1
+  biden           1
+  help            1
+  finance         1
+  military        1
+  bioweapon       1
+  research        1
+  program         1
+  ukraine         1
+
+True=5 (Argument Manipulations), Pred=5 (Argument Manipulations)  | N tokens: 67
+  propaganda      3
+  think           2
+  ve              2
+  say             2
+  russian         2
+  expose          2
+  blame           1
+  tweet           1
+  lie             1
+  eu              1
+  bubble          1
+  system          1
+  believe         1
+  contrary        1
+  go           
+  
+ sajitaj finetuned high only
+ 
+ ===== TRUE 0: No Propaganda (18) =====
+
+True=0 (No Propaganda (18)), Pred=0 (No Propaganda (18))  | N tokens: 1332
+  httpurl         51
+  ukraine         39
+  russia          27
+  war             23
+  propaganda      18
+  russian         17
+  putin           14
+  nan             13
+  say             9
+  nazis           9
+  nazi            9
+  right           8
+  destroy         8
+  people          8
+  ukrainian       7
+
+True=0 (No Propaganda (18)), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 51
+  ukraine         4
+  russia          3
+  putin           2
+  war             2
+  condition       1
+  leader          1
+  vladimir        1
+  test            1
+  december        1
+  battlefield     1
+  win             1
+  unequivocally   1
+  cold            1
+  warm            1
+  classic         1
+
+True=0 (No Propaganda (18)), Pred=2 (Popularity Appeals)  | N tokens: 41
+  people          2
+  know            2
+  vote            1
+  united          1
+  states          1
+  dangerous       1
+  humanity        1
+  china           1
+  russia          1
+  combined        1
+  maybe           1
+  let             1
+  govt            1
+  propaganda      1
+  fail            1
+
+True=0 (No Propaganda (18)), Pred=3 (Deflections & Distractions)  | N tokens: 330
+  russia          21
+  ukraine         12
+  war             8
+  putin           6
+  httpurl         6
+  nazi            5
+  threat          5
+  new             4
+  russian         4
+  news            4
+  uk              4
+  biden           3
+  stop            3
+  medium          3
+  invade          3
+
+True=0 (No Propaganda (18)), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 183
+  nazi            7
+  httpurl         7
+  ukraine         5
+  russian         4
+  ukrainian       3
+  propaganda      3
+  germany         3
+  hitler          3
+  people          3
+  week            2
+  good            2
+  death           2
+  ambassador      2
+  stop            2
+  azov            2
+
+True=0 (No Propaganda (18)), Pred=5 (Argument Manipulations)  | N tokens: 70
+  httpurl         4
+  russia          3
+  war             3
+  wing            2
+  ukraine         2
+  right           2
+  fascist         2
+  western         2
+  lay             2
+  arm             2
+  israel          2
+  ask             1
+  left            1
+  party           1
+  collaborate     1
+
+===== TRUE 1: Patriotic & Catchy Appeals =====
+
+True=1 (Patriotic & Catchy Appeals), Pred=0 (No Propaganda (18))  | N tokens: 8
+  russia          1
+  display         1
+  maritime        1
+  country         1
+  celebrate       1
+  navy            1
+  day             1
+  httpurl         1
+
+True=1 (Patriotic & Catchy Appeals), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 131
+  istandwithputin 11
+  istandwithrussia 9
+  httpurl         8
+  russia          8
+  support         6
+  putin           4
+  people          4
+  western         3
+  standwithputin  3
+  world           2
+  country         2
+  propaganda      2
+  standwithrussia 2
+  war             2
+  chinese         2
+
+===== TRUE 2: Popularity Appeals =====
+
+True=2 (Popularity Appeals), Pred=2 (Popularity Appeals)  | N tokens: 6
+  understand      1
+  friend          1
+  majority        1
+  russians        1
+  support         1
+  war             1
+
+===== TRUE 3: Deflections & Distractions =====
+
+True=3 (Deflections & Distractions), Pred=0 (No Propaganda (18))  | N tokens: 43
+  russians        2
+  world           2
+  threaten        1
+  invade          1
+  middle          1
+  east            1
+  intervene       1
+  yom             1
+  kippur          1
+  war             1
+  nixon           1
+  raise           1
+  american        1
+  military        1
+  alert           1
+
+True=3 (Deflections & Distractions), Pred=3 (Deflections & Distractions)  | N tokens: 86
+  russia          6
+  httpurl         5
+  war             4
+  ukraine         4
+  nazi            3
+  nato            3
+  hitler          2
+  join            2
+  attack          2
+  like            2
+  battle          1
+  orchestrate     1
+  codicil         1
+  vatican         1
+  beat            1
+
+True=3 (Deflections & Distractions), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 39
+  cause           2
+  ukraine         2
+  america         2
+  genocideofukraine 1
+  azov            1
+  force           1
+  russia          1
+  maybe           1
+  think           1
+  nazi            1
+  state           1
+  pay             1
+  canada          1
+  new             1
+  fascist         1
+
+===== TRUE 4: Emotional & Loaded Persuasion =====
+
+True=4 (Emotional & Loaded Persuasion), Pred=0 (No Propaganda (18))  | N tokens: 145
+  httpurl         7
+  russian         5
+  russia          5
+  ukraine         4
+  propaganda      4
+  ukrainian       4
+  terrorist       3
+  country         3
+  nazi            3
+  war             3
+  force           2
+  soldier         2
+  fascist         2
+  neo             2
+  western         2
+
+True=4 (Emotional & Loaded Persuasion), Pred=2 (Popularity Appeals)  | N tokens: 24
+  people          2
+  war             2
+  mariupol        1
+  get             1
+  tired           1
+  sunbathe        1
+  beach           1
+  like            1
+  happen          1
+  popular         1
+  support         1
+  continuation    1
+  wear            1
+  civilian        1
+  population      1
+
+True=4 (Emotional & Loaded Persuasion), Pred=3 (Deflections & Distractions)  | N tokens: 53
+  ukraine         4
+  nazi            4
+  civilian        2
+  russian         1
+  army            1
+  threaten        1
+  damage          1
+  casualty        1
+  cause           1
+  ukrainian       1
+  nationalist     1
+  claim           1
+  vasily          1
+  nebenzya        1
+  un              1
+
+True=4 (Emotional & Loaded Persuasion), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 402
+  ukraine         16
+  httpurl         14
+  nazi            14
+  nazis           10
+  people          7
+  ukrainian       6
+  russia          6
+  russian         6
+  right           5
+  neo             5
+  war             5
+  nato            5
+  hitler          4
+  civilian        4
+  attack          4
+
+True=4 (Emotional & Loaded Persuasion), Pred=5 (Argument Manipulations)  | N tokens: 20
+  aid             2
+  help            2
+  rich            1
+  country         1
+  ukrainian       1
+  live            1
+  survive         1
+  war             1
+  far             1
+  low             1
+  priority        1
+  military        1
+  ukrainians      1
+  kill            1
+  weaken          1
+
+===== TRUE 5: Argument Manipulations =====
+
+True=5 (Argument Manipulations), Pred=0 (No Propaganda (18))  | N tokens: 117
+  russia          4
+  state           4
+  russian         3
+  propaganda      3
+  httpurl         3
+  eu              3
+  ve              2
+  go              2
+  say             2
+  expose          2
+  want            2
+  lie             2
+  join            2
+  terrorist       2
+  utterly         1
+
+True=5 (Argument Manipulations), Pred=3 (Deflections & Distractions)  | N tokens: 62
+  propaganda      3
+  fake            2
+  medium          2
+  ukraine         2
+  blame           1
+  think           1
+  tweet           1
+  lie             1
+  eu              1
+  bubble          1
+  system          1
+  believe         1
+  contrary        1
+  report          1
+  claim           1
+
+True=5 (Argument Manipulations), Pred=5 (Argument Manipulations)  | N tokens: 36
+  question        1
+  ukranians       1
+  engage          1
+  self            1
+  defense         1
+  killer          1
+  hunter          1
+  biden           1
+  help            1
+  finance         1
+  military        1
+  bioweapon       1
+  research        1
+  program         1
+  ukraine         1
+  
+  sahitaj finetuned main high 
+  
+  ===== TRUE 0: No Propaganda (18) =====
+
+True=0 (No Propaganda (18)), Pred=0 (No Propaganda (18))  | N tokens: 1329
+  httpurl         53
+  ukraine         38
+  russia          29
+  war             20
+  propaganda      17
+  russian         16
+  putin           14
+  nan             13
+  nazi            12
+  people          10
+  nazis           9
+  say             7
+  destroy         7
+  ukrainian       7
+  russians        6
+
+True=0 (No Propaganda (18)), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 52
+  ukraine         4
+  war             3
+  russia          2
+  today           2
+  finns           2
+  winter          2
+  httpurl         2
+  istandwithrussia 1
+  istandwithputin 1
+  twitter         1
+  block           1
+  support         1
+  putin           1
+  sympathize      1
+  people          1
+
+True=0 (No Propaganda (18)), Pred=2 (Popularity Appeals)  | N tokens: 23
+  people          2
+  know            2
+  vote            1
+  united          1
+  states          1
+  dangerous       1
+  humanity        1
+  china           1
+  russia          1
+  combined        1
+  maybe           1
+  let             1
+  govt            1
+  propaganda      1
+  fail            1
+
+True=0 (No Propaganda (18)), Pred=3 (Deflections & Distractions)  | N tokens: 236
+  russia          9
+  war             9
+  ukraine         6
+  putin           5
+  need            4
+  start           4
+  uk              4
+  propaganda      3
+  threat          3
+  usa             3
+  httpurl         3
+  wish            3
+  right           2
+  reason          2
+  olympics        2
+
+True=0 (No Propaganda (18)), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 199
+  ukraine         9
+  nazi            6
+  russian         6
+  httpurl         5
+  russia          5
+  nazis           3
+  say             3
+  ukrainian       2
+  propaganda      2
+  week            2
+  hitler          2
+  die             2
+  ukrainians      2
+  save            2
+  world           2
+
+True=0 (No Propaganda (18)), Pred=5 (Argument Manipulations)  | N tokens: 168
+  russia          11
+  ukraine         5
+  httpurl         5
+  right           3
+  invade          3
+  war             3
+  truth           2
+  biden           2
+  propaganda      2
+  stop            2
+  medium          2
+  cover           2
+  middle          2
+  east            2
+  nation          2
+
+===== TRUE 1: Patriotic & Catchy Appeals =====
+
+True=1 (Patriotic & Catchy Appeals), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 139
+  istandwithputin 11
+  russia          9
+  httpurl         9
+  istandwithrussia 9
+  support         6
+  putin           4
+  people          4
+  country         3
+  western         3
+  standwithputin  3
+  world           2
+  propaganda      2
+  standwithrussia 2
+  war             2
+  chinese         2
+
+===== TRUE 2: Popularity Appeals =====
+
+True=2 (Popularity Appeals), Pred=2 (Popularity Appeals)  | N tokens: 6
+  understand      1
+  friend          1
+  majority        1
+  russians        1
+  support         1
+  war             1
+
+===== TRUE 3: Deflections & Distractions =====
+
+True=3 (Deflections & Distractions), Pred=0 (No Propaganda (18))  | N tokens: 43
+  russians        2
+  world           2
+  threaten        1
+  invade          1
+  middle          1
+  east            1
+  intervene       1
+  yom             1
+  kippur          1
+  war             1
+  nixon           1
+  raise           1
+  american        1
+  military        1
+  alert           1
+
+True=3 (Deflections & Distractions), Pred=3 (Deflections & Distractions)  | N tokens: 75
+  russia          6
+  httpurl         4
+  nazi            3
+  war             3
+  nato            3
+  ukraine         3
+  hitler          2
+  join            2
+  attack          2
+  battle          1
+  orchestrate     1
+  codicil         1
+  vatican         1
+  beat            1
+  germans         1
+
+True=3 (Deflections & Distractions), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 12
+  nato            1
+  killer          1
+  ukraine         1
+  ve              1
+  cause           1
+  death           1
+  child           1
+  reason          1
+  america         1
+  sell            1
+  weapon          1
+  httpurl         1
+
+True=3 (Deflections & Distractions), Pred=5 (Argument Manipulations)  | N tokens: 38
+  ukraine         2
+  genocideofukraine 1
+  cause           1
+  azov            1
+  force           1
+  russia          1
+  maybe           1
+  think           1
+  nazi            1
+  state           1
+  pay             1
+  america         1
+  canada          1
+  new             1
+  fascist         1
+
+===== TRUE 4: Emotional & Loaded Persuasion =====
+
+True=4 (Emotional & Loaded Persuasion), Pred=0 (No Propaganda (18))  | N tokens: 111
+  httpurl         5
+  russia          5
+  ukrainian       4
+  propaganda      3
+  russian         3
+  war             3
+  support         2
+  nazi            2
+  narrative       2
+  want            2
+  china           2
+  right           1
+  winger          1
+  de              1
+  complexify      1
+
+True=4 (Emotional & Loaded Persuasion), Pred=1 (Patriotic & Catchy Appeals)  | N tokens: 23
+  russia          3
+  message         1
+  save            1
+  world           1
+  nazi            1
+  military        1
+  machine         1
+  foster          1
+  year            1
+  care            1
+  eternal         1
+  debt            1
+  second          1
+  strong          1
+  absolutely      1
+
+True=4 (Emotional & Loaded Persuasion), Pred=3 (Deflections & Distractions)  | N tokens: 16
+  joe             1
+  biden           1
+  actually        1
+  care            1
+  victim          1
+  buffalo         1
+  ny              1
+  send            1
+  billion         1
+  taxpayer        1
+  dollar          1
+  neo             1
+  nazi            1
+  extremist       1
+  group           1
+
+True=4 (Emotional & Loaded Persuasion), Pred=4 (Emotional & Loaded Persuasion)  | N tokens: 434
+  ukraine         19
+  httpurl         17
+  nazi            13
+  nazis           10
+  people          9
+  russian         9
+  ukrainian       7
+  war             7
+  civilian        6
+  neo             6
+  attack          6
+  nato            5
+  right           4
+  hitler          4
+  like            4
+
+True=4 (Emotional & Loaded Persuasion), Pred=5 (Argument Manipulations)  | N tokens: 60
+  ukraine         4
+  nazi            4
+  aid             2
+  help            2
+  disagree        1
+  think           1
+  fund            1
+  nazis           1
+  look            1
+  operation       1
+  paperclip       1
+  gladio          1
+  protect         1
+  end             1
+  anyways         1
+
+===== TRUE 5: Argument Manipulations =====
+
+True=5 (Argument Manipulations), Pred=0 (No Propaganda (18))  | N tokens: 117
+  russia          4
+  state           4
+  russian         3
+  propaganda      3
+  httpurl         3
+  eu              3
+  ve              2
+  go              2
+  say             2
+  expose          2
+  want            2
+  lie             2
+  join            2
+  terrorist       2
+  utterly         1
+
+True=5 (Argument Manipulations), Pred=3 (Deflections & Distractions)  | N tokens: 21
+  let             1
+  strawman        1
+  thing           1
+  say             1
+  insinuated      1
+  putin           1
+  government      1
+  leader          1
+  dirty           1
+  hand            1
+  far             1
+  article         1
+  western         1
+  medium          1
+  expect          1
+
+True=5 (Argument Manipulations), Pred=5 (Argument Manipulations)  | N tokens: 77
+  ukraine         3
+  propaganda      2
+  fake            2
+  year            2
+  blame           1
+  think           1
+  tweet           1
+  lie             1
+  eu              1
+  bubble          1
+  system          1
+  believe         1
+  contrary        1
+  question        1
+  ukranians       1

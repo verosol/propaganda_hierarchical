@@ -1,0 +1,1603 @@
+High-Level Categories for Our Schema
+～~～~~~~～
+O. Non-Propaganda
+1. Distort Reality and Rewrite the Past
+Goal: Undermine truth and legitimize the present through distortion. Subtypes: 2, 11, 15, 17 (False Origin Attribution, Circular Reasoning, Appeal to Ignorance).
+Rationale: Denial, fabrication, and invented evidence challenge fact-based narratives.
+2. Shift Blame and Justify Aggression
+Goal: Reframe aggressor as victim or rational actor.
+Subtypes: 4, 5, 13, 17 (False Causality, False Balance).
+Rationale: Inverts moral frameworks to rationalize wrongdoing or redirect guilt.
+3. Delegitimize the Opponent
+Goal: Undermine credibility and morality of adversaries.
+Subtypes: 1, 3, 8, 9, 12, 6.
+Rationale: Frames enemies as liars, extremists, or inhuman entities.
+4. Manufacture Consent and Identity
+Goal: Rally support and polarize identities.
+Subtypes: 12, 14, 16, 10, 7.
+Rationale: Builds loyalty through fear, pride, and tribal solidarity.
+5. Confuse and Distract
+Goal: Overwhelm critical thinking through noise and uncertainty.
+Subtypes: 7, 15, 6, 17 (Red Herrings, Appeal to Probability, False Dichotomy). Rationale: Undermines clarity, trust, and consensus.
+
+Gpt4.1-nano
+
+Our schema baseline 
+=====O. Non-Propaganda
+True=0, Pred=0  (N tokens: 712)
+  ukraine         21
+  war             14
+  russia          11
+  people          8
+  crisis          7
+  uk              6
+  country         5
+  amp             4
+  polish          4
+  live            4
+  year            4
+  world           4
+  good            4
+  news            3
+  poland          3
+
+True=0, Pred=1  (N tokens: 184)
+  putin           6
+  propaganda      6
+  war             5
+  russian         4
+  ukraine         4
+  anti            3
+  neo             3
+  russia          3
+  holodomor       2
+  denial          2
+  general         2
+  like            2
+  nazi            2
+  policy          2
+  destroy         2
+
+True=0, Pred=2  (N tokens: 629)
+  ukraine         22
+  russia          20
+  war             13
+  russian         12
+  nazi            8
+  putin           7
+  russians        5
+  ukrainians      5
+  country         5
+  propaganda      5
+  ukrainian       5
+  amp             5
+  day             4
+  people          4
+  gas             4
+
+True=0, Pred=3  (N tokens: 111)
+  state           6
+  russia          5
+  nazis           4
+  russian         4
+  terrorist       3
+  propaganda      2
+  tv              2
+  nazi            2
+  neo             2
+  ukraine         2
+  genocide        2
+  want            2
+  sponsor         2
+  stop            2
+  ukrainian       2
+
+True=0, Pred=4  (N tokens: 154)
+  propaganda      5
+  china           4
+  amp             3
+  medium          3
+  people          2
+  thing           2
+  ukrainerussiawar 2
+  russia          2
+  ukraine         2
+  fact            2
+  right           2
+  american        2
+  government      2
+  fear            2
+  new             2
+
+========1. Distort Reality and Rewrite the Past
+
+True=1, Pred=0  (N tokens: 40)
+  ukraine         2
+  israel          2
+  claim           2
+  himars          2
+  video           2
+  israeli         1
+  newspaper       1
+  zelensky        1
+  say             1
+  emulate         1
+  liberal         1
+  european        1
+  country         1
+  like            1
+  eu              1
+
+True=1, Pred=1  (N tokens: 23)
+  ukraine         3
+  right           2
+  nazi            2
+  base            2
+  wing            1
+  refer           1
+  azov            1
+  battalion       1
+  establish       1
+  multiple        1
+  far             1
+  group           1
+  mariupol        1
+  face            1
+  sea             1
+
+True=1, Pred=2  (N tokens: 231)
+  ukraine         16
+  russia          7
+  ukrainian       5
+  propaganda      4
+  war             4
+  people          4
+  neo             3
+  nazi            3
+  nato            3
+  coup            3
+  weremember      3
+  russian         3
+  want            2
+  tie             2
+  azov            2
+
+=======2. Shift Blame and Justify Aggression
+
+True=2, Pred=0  (N tokens: 12)
+  billion         1
+  military        1
+  aid             1
+  ukraine         1
+  february        1
+  money           1
+  invest          1
+  education       1
+  housing         1
+  healthcare      1
+  climatecrisis   1
+  etc             1
+
+True=2, Pred=1  (N tokens: 43)
+  ukraine         2
+  war             2
+  wont            1
+  cnn             1
+  nazi            1
+  battalion       1
+  troop           1
+  fight           1
+  swastika        1
+  hitler          1
+  salute          1
+  wonder          1
+  putin           1
+  announce        1
+  conduct         1
+
+True=2, Pred=2  (N tokens: 385)
+  russian         10
+  ukraine         10
+  nazi            8
+  amp             8
+  war             7
+  russians        5
+  russia          5
+  people          5
+  nato            5
+  ukrainian       4
+  kill            4
+  putin           4
+  country         4
+  cuba            4
+  help            3
+
+True=2, Pred=3  (N tokens: 38)
+  russia          3
+  ukrainian       2
+  fight           2
+  nazis           2
+  people          2
+  ukraine         2
+  hear            1
+  azov            1
+  militia         1
+  neo             1
+  nazi            1
+  infiltrate      1
+  military        1
+  government      1
+  literally       1
+=====3. Delegitimize the Opponent
+
+True=3, Pred=0  (N tokens: 17)
+  major           1
+  scandal         1
+  swastika        1
+  flag            1
+  spot            1
+  near            1
+  trucker         1
+  protest         1
+  cricket         1
+  trudeau         1
+  freeland        1
+  meet            1
+  ukrainian       1
+  neo             1
+  nazi            1
+
+True=3, Pred=1  (N tokens: 55)
+  propaganda      4
+  russian         4
+  ukraine         3
+  guy             3
+  american        2
+  ask             2
+  video           2
+  western         1
+  media           1
+  worried         1
+  lesson          1
+  actor           1
+  produce         1
+  footage         1
+  usa             1
+
+True=3, Pred=2  (N tokens: 351)
+  nazi            22
+  ukraine         16
+  war             6
+  nazis           6
+  ukrainian       6
+  azov            4
+  arm             4
+  russian         4
+  country         4
+  russia          4
+  putin           3
+  child           3
+  puppet          3
+  force           3
+  live            3
+
+True=3, Pred=3  (N tokens: 55)
+  nazi            4
+  ukraine         3
+  support         3
+  propaganda      2
+  hitler          2
+  ideology        2
+  reveal          2
+  bingo           1
+  hero            1
+  zelenskyy       1
+  style           1
+  sway            1
+  public          1
+  opinion         1
+  sheep           1
+=====4. Manufacture Consent and Identity
+
+True=4, Pred=0  (N tokens: 62)
+  russia          3
+  launch          2
+  medium          2
+  ukrainian       1
+  army            1
+  surrender       1
+  fight           1
+  attention       1
+  mr              1
+  president       1
+  break           1
+  news            1
+  version         1
+  instagram       1
+  soon            1
+
+True=4, Pred=2  (N tokens: 105)
+  ukraine         6
+  war             3
+  putin           3
+  right           2
+  azov            2
+  battalion       2
+  world           2
+  news            2
+  away            2
+  zone            2
+  good            2
+  destroy         2
+  stop            2
+  eu              2
+  believe         1
+
+True=4, Pred=3  (N tokens: 35)
+  consistent      2
+  volunteer       2
+  enlightened     1
+  awaken          1
+  newera          1
+  peacewarrior    1
+  stand           1
+  humanity        1
+  standwithrussia 1
+  truth           1
+  khazarianmafia  1
+  usa             1
+  eu              1
+  uk              1
+  ukraine         1
+
+True=4, Pred=4  (N tokens: 10)
+  thank           1
+  save            1
+  people          1
+  ukronazis       1
+  terror          1
+  russia          1
+  kadirov         1
+  istandwithputin 1
+  istandwithrussians 1
+  ukraine         1
+====5. Confuse and Distract
+
+True=5, Pred=0  (N tokens: 54)
+  ukraine         3
+  paypal          2
+  ban             2
+  twitter         2
+  medium          2
+  nazi            1
+  azov            1
+  battalion       1
+  allow           1
+  receive         1
+  donation        1
+  venmo           1
+  life            1
+  expose          1
+  prevail         1
+
+True=5, Pred=1  (N tokens: 43)
+  true            4
+  truth           2
+  claim           2
+  change          2
+  wow             1
+  whack           1
+  putin           1
+  neo             1
+  nazi            1
+  problem         1
+  place           1
+  wonder          1
+  bio             1
+  lab             1
+  hunters         1
+
+True=5, Pred=2  (N tokens: 164)
+  propaganda      8
+  ukraine         7
+  russia          5
+  nazi            3
+  send            3
+  western         3
+  ukr             3
+  war             3
+  long            2
+  tank            2
+  west            2
+  peace           2
+  look            2
+  russian         2
+  fake            2
+
+True=5, Pred=4  (N tokens: 19)
+  right           2
+  big             1
+  political       1
+  experiment      1
+  world           1
+  happen          1
+  billion         1
+  people          1
+  great           1
+  think           1
+  act             1
+  like            1
+  mob             1
+  incessant       1
+  propaganda      1
+
+
+——————————————————————————————
+Our schema FINETUNED
+
+No propaganda
+
+True=0, Pred=0  (N tokens: 1490)
+  ukraine         43
+  russia          29
+  war             28
+  propaganda      15
+  putin           13
+  people          13
+  russian         13
+  amp             12
+  country         9
+  destroy         8
+
+True=0, Pred=2  (N tokens: 300) 2. Shift Blame and Justify Aggression
+  russia          12
+  russian         10
+  ukraine         8
+  war             7
+  state           6
+  nazi            6
+  nazis           5
+  propaganda      4
+  genocide        4
+  ukrainians      4
+
+========= 1. Distort Reality and Rewrite the Past
+
+True=1, Pred=0  (N tokens: 127)
+  ukraine         9
+  nazi            3
+  russia          3
+  people          3
+  azov            2
+  battalion       2
+  israel          2
+  join            2
+  right           2
+  base            2
+
+True=1, Pred=1  (N tokens: 26)
+  ukraine         5
+  ukrainian       3
+  weremember      3
+  glorification   2
+  nazis           2
+  killer          2
+  jewish          2
+  holocaust       2
+  stop            2
+  pogrom          1
+
+True=1, Pred=2  (N tokens: 141)
+  ukraine         7
+  russia          4
+  propaganda      3
+  coup            3
+  war             3
+  elect           2
+  biden           2
+  proxy           2
+  year            2
+  nato            2
+
+========2. Shift Blame and Justify Aggression
+
+
+True=2, Pred=0  (N tokens: 129)
+  cuba            4
+  border          3
+  russian         3
+  country         3
+  help            2
+  russia          2
+  hate            2
+  long            2
+  ukraine         2
+  war             2
+
+True=2, Pred=2  (N tokens: 332)
+  ukraine         12
+  nazi            8
+  amp             8
+  war             8
+  people          7
+  russian         7
+  ukrainian       6
+  russia          6
+  putin           5
+  nato            5
+
+True=2, Pred=3  (N tokens: 17)
+  wont            1
+  cnn             1
+  nazi            1
+  battalion       1
+  troop           1
+  fight           1
+  swastika        1
+  hitler          1
+  salute          1
+  wonder          1
+
+
+====3. Delegitimize the Opponent
+
+True=3, Pred=0  (N tokens: 121)
+  propaganda      5
+  russian         5
+  ukraine         4
+  need            3
+  europe          3
+  guy             3
+  puppet          2
+  war             2
+  twitter         2
+  ground          2
+  mark            2
+  sf              2
+  pira            2
+  amp             2
+  know            2
+
+True=3, Pred=2  (N tokens: 312)
+  nazi            20
+  ukraine         13
+  nazis           6
+  support         5
+  arm             4
+  war             4
+  ukrainian       4
+  country         4
+  fascist         4
+  russian         3
+  child           3
+  propaganda      3
+  russia          3
+  global          2
+  people          2
+
+True=3, Pred=3  (N tokens: 45)
+  nazi            6
+  ukraine         5
+  putin           3
+  azov            2
+  ukrainian       2
+  live            2
+  right           1
+  problem         1
+  azovbattalion   1
+  bandera         1
+  war             1
+  citizen         1
+  daily           1
+  basis           1
+  force           1
+
+======4. Manufacture Consent and Identity
+
+True=4, Pred=0  (N tokens: 111)
+  ukraine         4
+  war             4
+  news            3
+  russia          3
+  medium          3
+  launch          2
+  right           2
+  azov            2
+  battalion       2
+  world           2
+  zone            2
+  ukrainian       1
+  army            1
+  surrender       1
+  fight           1
+
+True=4, Pred=2  (N tokens: 83)
+  ukraine         4
+  eu              3
+  putin           3
+  russia          2
+  consistent      2
+  stop            2
+  thank           1
+  save            1
+  people          1
+  ukronazis       1
+  terror          1
+  kadirov         1
+  istandwithputin 1
+  istandwithrussians 1
+  enlightened     1
+
+True=4, Pred=3  (N tokens: 18)
+  volunteer       2
+  ukrainian       1
+  western         1
+  form            1
+  brigade         1
+  kherson         1
+  liberation      1
+  odessa          1
+  nikolaev        1
+  word            1
+  mercy           1
+  mercenary       1
+  ukronazis       1
+  bandera         1
+  destroy         1
+
+=====5. Confuse and Distract
+
+
+True=5, Pred=0  (N tokens: 155)
+  propaganda      6
+  true            4
+  western         3
+  ukr             3
+  russia          3
+  ukraine         3
+  send            2
+  happen          2
+  tank            2
+  twitter         2
+  claim           2
+  good            2
+  russian         2
+  medium          2
+  peace           2
+
+True=5, Pred=2  (N tokens: 125)
+  ukraine         7
+  propaganda      5
+  nazi            4
+  russia          3
+  war             3
+  long            2
+  receive         2
+  claim           2
+  azov            2
+  paypal          2
+  ban             2
+  expose          2
+  western         2
+  ukrainians      2
+  change          2
+
+
+=====
+Main high baseline
+
+===== TRUE 0: Non-Propaganda =====
+
+True=0 (Non-Propaganda), Pred=0 (Non-Propaganda)  | N tokens: 288
+  ukraine         9
+  war             5
+  russia          4
+  world           3
+  good            3
+  humanitarian    3
+  pro             2
+  tell            2
+  maybe           2
+  listen          2
+  human           2
+  rights          2
+  crisis          2
+  important       2
+  opinion         2
+
+True=0 (Non-Propaganda), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 519
+  russia          11
+  propaganda      11
+  ukraine         8
+  war             8
+  putin           5
+  medium          5
+  nazi            5
+  news            4
+  government      4
+  american        4
+  right           4
+  people          4
+  china           4
+  try             4
+  go              4
+
+True=0 (Non-Propaganda), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 403
+  ukraine         15
+  war             13
+  russian         11
+  russia          11
+  country         6
+  ukrainians      5
+  people          5
+  amp             5
+  stop            5
+  gas             4
+  ukrainian       4
+  live            4
+  polish          4
+  state           4
+  putin           3
+
+True=0 (Non-Propaganda), Pred=3 (Delegitimize the Opponent)  | N tokens: 380
+  ukraine         14
+  russia          10
+  russian         9
+  nazi            8
+  putin           8
+  propaganda      6
+  neo             6
+  war             5
+  nazis           4
+  eu              4
+  nato            4
+  german          3
+  russians        3
+  kill            3
+  like            3
+
+True=0 (Non-Propaganda), Pred=4 (Manufacture Consent and Identity)  | N tokens: 200
+  russia          5
+  ukraine         5
+  uk              5
+  terrorist       4
+  war             4
+  state           3
+  amp             3
+  force           3
+  decade          2
+  long            2
+  plan            2
+  need            2
+  new             2
+  government      2
+  year            2
+
+===== TRUE 1: Distort Reality and Rewrite the Past =====
+
+True=1 (Distort Reality and Rewrite the Past), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 63
+  ukraine         5
+  russia          3
+  nazi            2
+  nato            2
+  war             2
+  propaganda      2
+  russian         2
+  say             2
+  lab             2
+  exclusive       1
+  fbi             1
+  documents       1
+  uncover         1
+  tie             1
+  americans       1
+
+True=1 (Distort Reality and Rewrite the Past), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 10
+  ukraine         1
+  kill            1
+  russian         1
+  child           1
+  donbas          1
+  war             1
+  mention         1
+  ukrainian       1
+  propaganda      1
+  outlet          1
+
+True=1 (Distort Reality and Rewrite the Past), Pred=3 (Delegitimize the Opponent)  | N tokens: 177
+  ukraine         13
+  coup            3
+  nazi            3
+  people          3
+  ukrainian       3
+  weremember      3
+  russia          3
+  want            2
+  israel          2
+  join            2
+  elect           2
+  current         2
+  right           2
+  azov            2
+  battalion       2
+
+True=1 (Distort Reality and Rewrite the Past), Pred=4 (Manufacture Consent and Identity)  | N tokens: 44
+  ukraine         2
+  land            2
+  claim           2
+  himars          2
+  video           2
+  sible           1
+  russia          1
+  year            1
+  interest        1
+  border          1
+  position        1
+  question        1
+  zelenski        1
+  sell            1
+  ukrainian       1
+
+===== TRUE 2: Shift Blame and Justify Aggression =====
+
+True=2 (Shift Blame and Justify Aggression), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 72
+  hitler          3
+  war             3
+  ukraine         2
+  like            2
+  wont            1
+  cnn             1
+  nazi            1
+  battalion       1
+  troop           1
+  fight           1
+  swastika        1
+  salute          1
+  wonder          1
+  putin           1
+  announce        1
+
+True=2 (Shift Blame and Justify Aggression), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 122
+  ukraine         4
+  russian         4
+  cuba            4
+  usa             3
+  warn            2
+  war             2
+  child           2
+  military        2
+  people          2
+  ukrainian       2
+  system          2
+  fm              1
+  sergey          1
+  lavrov          1
+  west            1
+
+True=2 (Shift Blame and Justify Aggression), Pred=3 (Delegitimize the Opponent)  | N tokens: 212
+  nazi            7
+  amp             6
+  russia          6
+  ukraine         6
+  putin           5
+  ukrainian       4
+  russians        4
+  war             4
+  russian         3
+  people          3
+  commit          3
+  help            2
+  border          2
+  speak           2
+  ukrainians      2
+
+True=2 (Shift Blame and Justify Aggression), Pred=4 (Manufacture Consent and Identity)  | N tokens: 72
+  nato            3
+  ukraine         3
+  country         2
+  stop            2
+  people          2
+  threat          2
+  negotiation     2
+  russian         2
+  biden           1
+  send            1
+  billion         1
+  dollar          1
+  run             1
+  neo             1
+  nazi            1
+
+===== TRUE 3: Delegitimize the Opponent =====
+
+True=3 (Delegitimize the Opponent), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 224
+  nazi            15
+  ukraine         9
+  russian         6
+  propaganda      6
+  nazis           4
+  country         4
+  war             3
+  ukrainian       3
+  arm             3
+  europe          3
+  amp             3
+  know            3
+  american        3
+  guy             3
+  putin           2
+
+True=3 (Delegitimize the Opponent), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 55
+  ukrainian       3
+  ukraine         3
+  east            2
+  fascist         2
+  threaten        2
+  support         2
+  mariupol        2
+  citizen         1
+  daily           1
+  basis           1
+  force           1
+  nazi            1
+  azov            1
+  denazifyukraine 1
+  ukrainerussianwar 1
+
+True=3 (Delegitimize the Opponent), Pred=3 (Delegitimize the Opponent)  | N tokens: 166
+  nazi            10
+  ukraine         8
+  war             3
+  nazis           3
+  support         3
+  global          2
+  azov            2
+  battalion       2
+  hitler          2
+  ideology        2
+  fascist         2
+  live            2
+  russia          2
+  reveal          2
+  govt            1
+
+True=3 (Delegitimize the Opponent), Pred=4 (Manufacture Consent and Identity)  | N tokens: 33
+  puppet          2
+  twitter         2
+  ground          2
+  ukraine         2
+  need            1
+  understand      1
+  clown           1
+  dictator        1
+  win             1
+  war             1
+  bs              1
+  propaganda      1
+  soldier         1
+  blow            1
+  bit             1
+
+===== TRUE 4: Manufacture Consent and Identity =====
+
+True=4 (Manufacture Consent and Identity), Pred=0 (Non-Propaganda)  | N tokens: 27
+  russia          3
+  launch          2
+  medium          2
+  break           1
+  news            1
+  version         1
+  instagram       1
+  soon            1
+  plan            1
+  social          1
+  app             1
+  similar         1
+  remove          1
+  content         1
+  people          1
+
+True=4 (Manufacture Consent and Identity), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 32
+  ukraine         3
+  putin           2
+  save            1
+  fly             1
+  zone            1
+  start           1
+  nuclear         1
+  war             1
+  destroy         1
+  world           1
+  make            1
+  sense           1
+  zelenskyy       1
+  right           1
+  mind            1
+
+True=4 (Manufacture Consent and Identity), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 35
+  ukrainian       2
+  away            2
+  stop            2
+  army            1
+  surrender       1
+  fight           1
+  attention       1
+  mr              1
+  president       1
+  bomb            1
+  vlad            1
+  trudeau         1
+  visit           1
+  war             1
+  zone            1
+
+True=4 (Manufacture Consent and Identity), Pred=3 (Delegitimize the Opponent)  | N tokens: 118
+  ukraine         4
+  eu              3
+  ukronazis       2
+  consistent      2
+  medium          2
+  azov            2
+  battalion       2
+  war             2
+  news            2
+  volunteer       2
+  thank           1
+  save            1
+  people          1
+  terror          1
+  russia          1
+
+===== TRUE 5: Confuse and Distract =====
+
+True=5 (Confuse and Distract), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 95
+  propaganda      5
+  true            4
+  western         3
+  truth           2
+  claim           2
+  good            2
+  ukraine         2
+  peace           2
+  look            2
+  medium          2
+  change          2
+  russian         2
+  fake            2
+  wow             1
+  whack           1
+
+True=5 (Confuse and Distract), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 37
+  ukr             3
+  send            2
+  tank            2
+  probably        1
+  listen          1
+  western         1
+  propaganda      1
+  small           1
+  isolated        1
+  victory         1
+  blow            1
+  proportion      1
+  ask             1
+  huge            1
+  weapon          1
+
+True=5 (Confuse and Distract), Pred=3 (Delegitimize the Opponent)  | N tokens: 111
+  ukraine         6
+  propaganda      5
+  nazi            4
+  receive         2
+  azov            2
+  russia          2
+  paypal          2
+  ban             2
+  expose          2
+  war             2
+  right           2
+  fire            1
+  sorus           1
+  klaus           1
+  zelinsky        1
+
+True=5 (Confuse and Distract), Pred=4 (Manufacture Consent and Identity)  | N tokens: 37
+  twitter         2
+  ukraine         2
+  russia          2
+  think           2
+  ban             1
+  account         1
+  hashtag         1
+  istandwithputin 1
+  fakenew         1
+  itnews          1
+  twitterban      1
+  putinnews       1
+  ukrainewar      1
+  cyberattack     1
+  ukrainevsrussia 1
+
+
+Mainhigh finetuned
+
+===== TRUE 0: Non-Propaganda =====
+
+True=0 (Non-Propaganda), Pred=0 (Non-Propaganda)  | N tokens: 1405
+  ukraine         40
+  russia          33
+  war             30
+  russian         14
+  people          12
+  propaganda      11
+  amp             11
+  putin           10
+  country         9
+  china           8
+  state           8
+  try             8
+  year            7
+  destroy         7
+  ukrainian       7
+
+True=0 (Non-Propaganda), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 64
+  wish            3
+  genocide        2
+  ndigbo          2
+  know            2
+  delta           2
+  agbor           2
+  russia          2
+  yes             1
+  false           1
+  claim           1
+  flag            1
+  day             1
+  ago             1
+  invasion        1
+  inevitable      1
+
+True=0 (Non-Propaganda), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 125
+  russian         7
+  ukraine         5
+  stop            4
+  insist          3
+  ukrainians      3
+  nazis           3
+  people          2
+  ukrainian       2
+  war             2
+  destroy         2
+  day             2
+  russia          2
+  bring           2
+  neighbour       2
+  german          2
+
+True=0 (Non-Propaganda), Pred=3 (Delegitimize the Opponent)  | N tokens: 158
+  nazi            11
+  neo             5
+  ukraine         5
+  propaganda      4
+  russia          4
+  putin           4
+  nazis           3
+  like            3
+  eu              2
+  nazism          2
+  germany         2
+  war             2
+  democratically  2
+  elect           2
+  policy          2
+
+True=0 (Non-Propaganda), Pred=5 (Confuse and Distract)  | N tokens: 38
+  anti            2
+  american        2
+  propaganda      2
+  right           2
+  pay             1
+  attention       1
+  denial          1
+  democracy       1
+  russian         1
+  winger          1
+  spew            1
+  love            1
+  fascist         1
+  autocratisism   1
+  present         1
+
+===== TRUE 1: Distort Reality and Rewrite the Past =====
+
+True=1 (Distort Reality and Rewrite the Past), Pred=0 (Non-Propaganda)  | N tokens: 104
+  ukraine         6
+  russia          3
+  people          3
+  israel          2
+  join            2
+  donbass         2
+  russian         2
+  claim           2
+  himars          2
+  video           2
+  exclusive       1
+  fbi             1
+  documents       1
+  uncover         1
+  tie             1
+
+True=1 (Distort Reality and Rewrite the Past), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 37
+  ukraine         3
+  coup            2
+  biden           2
+  proxy           2
+  war             2
+  sponsor         1
+  elect           1
+  government      1
+  starting        1
+  point           1
+  discussion      1
+  current         1
+  crisis          1
+  alarming        1
+  administration  1
+
+True=1 (Distort Reality and Rewrite the Past), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 29
+  land            2
+  act             1
+  instruction     1
+  doubt           1
+  ukronazi        1
+  want            1
+  civilian        1
+  die             1
+  propaganda      1
+  reason          1
+  ukraine         1
+  sible           1
+  russia          1
+  year            1
+  interest        1
+
+True=1 (Distort Reality and Rewrite the Past), Pred=3 (Delegitimize the Opponent)  | N tokens: 97
+  ukraine         9
+  nazi            4
+  ukrainian       3
+  weremember      3
+  right           2
+  azov            2
+  battalion       2
+  base            2
+  glorification   2
+  nazis           2
+  killer          2
+  jewish          2
+  holocaust       2
+  stop            2
+  support         2
+
+True=1 (Distort Reality and Rewrite the Past), Pred=4 (Manufacture Consent and Identity)  | N tokens: 10
+  ukraine         1
+  kill            1
+  russian         1
+  child           1
+  donbas          1
+  war             1
+  mention         1
+  ukrainian       1
+  propaganda      1
+  outlet          1
+
+True=1 (Distort Reality and Rewrite the Past), Pred=5 (Confuse and Distract)  | N tokens: 17
+  russia          2
+  say             2
+  lab             2
+  ukraine         1
+  biolabs         1
+  ukrain          1
+  nato            1
+  russian         1
+  propaganda      1
+  bio             1
+  find            1
+  burn            1
+  hide            1
+  happen          1
+
+===== TRUE 2: Shift Blame and Justify Aggression =====
+
+True=2 (Shift Blame and Justify Aggression), Pred=0 (Non-Propaganda)  | N tokens: 58
+  cuba            4
+  want            2
+  threaten        2
+  russian         2
+  usa             2
+  system          2
+  mean            1
+  fact            1
+  ban             1
+  citizen         1
+  enter           1
+  country         1
+  teach           1
+  language        1
+  school          1
+
+True=2 (Shift Blame and Justify Aggression), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 207
+  ukraine         10
+  russian         7
+  people          6
+  war             6
+  russia          4
+  help            3
+  speak           3
+  nazi            3
+  country         3
+  nato            3
+  step            2
+  border          2
+  ukrainians      2
+  enemy           2
+  long            2
+
+True=2 (Shift Blame and Justify Aggression), Pred=3 (Delegitimize the Opponent)  | N tokens: 152
+  nazi            7
+  ukrainian       4
+  russians        4
+  amp             4
+  russia          3
+  fight           3
+  hitler          3
+  putin           3
+  ukraine         3
+  azov            2
+  military        2
+  nazis           2
+  kill            2
+  war             2
+  typical         1
+
+True=2 (Shift Blame and Justify Aggression), Pred=4 (Manufacture Consent and Identity)  | N tokens: 15
+  child           2
+  kiev            1
+  regime          1
+  bomb            1
+  literally       1
+  setup           1
+  military        1
+  basis           1
+  schools         1
+  endanger        1
+  despicable      1
+  disgusting      1
+  zelensky        1
+  trial           1
+
+True=2 (Shift Blame and Justify Aggression), Pred=5 (Confuse and Distract)  | N tokens: 46
+  propaganda      2
+  like            2
+  war             2
+  amp             2
+  shelling        1
+  donestk         1
+  lugansk         1
+  republic        1
+  ukraine         1
+  area            1
+  confirm         1
+  george          1
+  galloway        1
+  ao              1
+  rt              1
+
+===== TRUE 3: Delegitimize the Opponent =====
+
+True=3 (Delegitimize the Opponent), Pred=0 (Non-Propaganda)  | N tokens: 94
+  propaganda      5
+  russian         5
+  ukraine         3
+  guy             3
+  need            2
+  puppet          2
+  twitter         2
+  ground          2
+  american        2
+  ask             2
+  mariupol        2
+  video           2
+  understand      1
+  clown           1
+  dictator        1
+
+True=3 (Delegitimize the Opponent), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 32
+  russia          2
+  country         2
+  support         2
+  go              1
+  come            1
+  maybe           1
+  control         1
+  face            1
+  luck            1
+  shame           1
+  agree           1
+  send            1
+  money           1
+  weapon          1
+  blood           1
+
+True=3 (Delegitimize the Opponent), Pred=3 (Delegitimize the Opponent)  | N tokens: 307
+  nazi            25
+  ukraine         17
+  nazis           6
+  war             5
+  azov            4
+  arm             4
+  ukrainian       4
+  putin           3
+  propaganda      3
+  force           3
+  live            3
+  fascist         3
+  support         3
+  amp             3
+  know            3
+
+True=3 (Delegitimize the Opponent), Pred=4 (Manufacture Consent and Identity)  | N tokens: 45
+  child           3
+  ukrainian       2
+  nazi            2
+  tv              1
+  host            1
+  fahruddin       1
+  sharafmal       1
+  take            1
+  airwave         1
+  demand          1
+  genocide        1
+  russian         1
+  quote           1
+  adolf           1
+  eichmann        1
+
+===== TRUE 4: Manufacture Consent and Identity =====
+
+True=4 (Manufacture Consent and Identity), Pred=0 (Non-Propaganda)  | N tokens: 121
+  ukraine         5
+  russia          4
+  war             4
+  news            3
+  medium          3
+  save            2
+  people          2
+  launch          2
+  right           2
+  azov            2
+  battalion       2
+  world           2
+  zone            2
+  thank           1
+  ukronazis       1
+
+True=4 (Manufacture Consent and Identity), Pred=1 (Distort Reality and Rewrite the Past)  | N tokens: 21
+  eu              2
+  lecturer        1
+  obscure         1
+  bully           1
+  year            1
+  actually        1
+  read            1
+  good            1
+  friday          1
+  agreement       1
+  appeasement     1
+  terrorist       1
+  murderer        1
+  glorious        1
+  fund            1
+
+True=4 (Manufacture Consent and Identity), Pred=2 (Shift Blame and Justify Aggression)  | N tokens: 18
+  stop            2
+  propaganda      1
+  ukrainian       1
+  ukrain          1
+  destroy         1
+  tell            1
+  nato            1
+  clearly         1
+  expansion       1
+  resolve         1
+  issue           1
+  putin           1
+  time            1
+  country         1
+  invade          1
+
+True=4 (Manufacture Consent and Identity), Pred=3 (Delegitimize the Opponent)  | N tokens: 35
+  putin           2
+  volunteer       2
+  wef             1
+  purge           1
+  vladimir        1
+  website         1
+  schwab          1
+  end             1
+  friendship      1
+  kind            1
+  help            1
+  pick            1
+  let             1
+  russia          1
+  friendly        1
+
+True=4 (Manufacture Consent and Identity), Pred=5 (Confuse and Distract)  | N tokens: 17
+  consistent      2
+  enlightened     1
+  awaken          1
+  newera          1
+  peacewarrior    1
+  stand           1
+  humanity        1
+  standwithrussia 1
+  truth           1
+  khazarianmafia  1
+  usa             1
+  eu              1
+  uk              1
+  ukraine         1
+  medium          1
+
+===== TRUE 5: Confuse and Distract =====
+
+True=5 (Confuse and Distract), Pred=0 (Non-Propaganda)  | N tokens: 141
+  propaganda      5
+  russia          4
+  ukraine         4
+  ukr             3
+  think           3
+  western         2
+  send            2
+  happen          2
+  tank            2
+  twitter         2
+  russian         2
+  war             2
+  peace           2
+  look            2
+  like            2
+
+True=5 (Confuse and Distract), Pred=3 (Delegitimize the Opponent)  | N tokens: 56
+  ukraine         4
+  nazi            3
+  receive         2
+  azov            2
+  paypal          2
+  fire            1
+  sorus           1
+  klaus           1
+  zelinsky        1
+  biden           1
+  back            1
+  corrupt         1
+  govt            1
+  smell           1
+  long            1
+
+True=5 (Confuse and Distract), Pred=5 (Confuse and Distract)  | N tokens: 83
+  true            5
+  propaganda      5
+  western         3
+  truth           2
+  claim           2
+  neo             2
+  nazi            2
+  medium          2
+  change          2
+  russian         2
+  ukraine         2
+  wow             1
+  whack           1
+  putin           1
+  problem         1
